@@ -1,14 +1,15 @@
 {
   "version": 2,
   "functions": {
-    "*.php": { "runtime": "vercel-php@0.7.2" },
-    "admin/*.php": { "runtime": "vercel-php@0.7.2" }
+    "api/**/*.php": { "runtime": "vercel-php@0.7.2" }
   },
   "routes": [
-    { "src": "/admin", "dest": "/admin/index.php" },
-    { "src": "/services", "dest": "/services.php" },
-    { "src": "/booking", "dest": "/booking.php" },
     { "src": "/assets/(.*)", "dest": "/assets/$1" },
-    { "src": "/(.*)", "dest": "/$1" }
+    { "src": "/admin", "dest": "/api/admin/index.php" },
+    { "src": "/admin/(.*)", "dest": "/api/admin/$1.php" },
+    { "src": "/services", "dest": "/api/services.php" },
+    { "src": "/booking", "dest": "/api/booking.php" },
+    { "src": "/", "dest": "/api/index.php" },
+    { "src": "/(.*)", "dest": "/api/$1.php" }
   ]
 }
