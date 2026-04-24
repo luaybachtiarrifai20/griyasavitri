@@ -1,8 +1,8 @@
 <?php
 // admin/dashboard.php
 require_once 'auth_check.php';
-require_once '../../includes/functions.php';
-require_once '../../includes/db.php';
+require_once '../includes/functions.php';
+require_once '../includes/db.php';
 
 // Stats for dashboard
 $total_bookings = $pdo->query("SELECT COUNT(*) FROM appointments")->fetchColumn();

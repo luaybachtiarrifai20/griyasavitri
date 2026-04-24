@@ -21,7 +21,7 @@ function load_env($path) {
     }
 }
 
-load_env(__DIR__ . '/../.env');
+load_env(__DIR__ . '/../../.env');
 
 function format_currency($amount) {
     return "Rp " . number_format($amount, 0, ',', '.');
