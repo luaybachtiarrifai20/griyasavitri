@@ -3,9 +3,9 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                 <div class="col-span-1 md:col-span-2">
-                    <a href="#" class="text-3xl font-bold tracking-tighter text-rosegold mb-6 block">GRIYA SAVITRI</a>
-                    <p class="text-gray-400 max-w-md leading-relaxed">
-                        Manjakan diri Anda dengan perawatan terbaik di Griya Savitri. Kami menghadirkan harmoni antara kecantikan dan ketenangan jiwa melalui layanan salon dan spa profesional.
+                    <h3 class="text-xl font-bold mb-4 font-serif text-white">Libra Salon</h3>
+                    <p class="text-sm leading-relaxed mb-6">
+                        Manjakan diri Anda dengan perawatan terbaik di Libra Salon. Kami menghadirkan harmoni antara kecantikan dan ketenangan jiwa melalui layanan salon dan spa profesional.
                     </p>
                 </div>
                 <div>
@@ -30,15 +30,14 @@
                         </li>
                         <li class="flex items-start">
                             <span class="mr-3">✉️</span>
-                            info@griyasavitri.com
+                            info@librasalon.com
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="border-t border-gray-700 pt-8 text-center text-gray-500 text-sm">
-                <p>&copy; <?php echo date('Y'); ?> Griya Savitri Salon & Spa. All rights reserved.</p>
-            </div>
-        </div>
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
+                <p>&copy; <?php echo date('Y'); ?> Libra Salon & Spa. All rights reserved.</p>
+                <div class="mt-4 md:mt-0 space-x-4">
     </footer>
 </body>
 </html>

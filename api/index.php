@@ -14,7 +14,7 @@ include 'includes/header.php';
     <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white text-center md:text-left">
         <h3 class="text-white/80 font-semibold tracking-widest uppercase text-xs sm:text-sm mb-4 animate-fade-in">Luxury Experience</h3>
         <h1 class="text-4xl sm:text-7xl font-bold leading-tight mb-6 sm:mb-8">
-            <span class="bg-white/95 text-rosegold px-4 py-1 rounded-xl inline-block mb-2">Griya Savitri</span> <br>
+            <span class="bg-white/95 text-rosegold px-4 py-1 rounded-xl inline-block mb-2">Libra Salon</span> <br>
             <span class="text-white">Salon & Spa</span>
         </h1>
         <p class="text-base sm:text-xl text-white/90 mb-8 sm:mb-12 max-w-xl leading-relaxed">Sentuhan profesional untuk kecantikan dan relaksasi Anda. Hadir dengan konsep modern dan tim ahli berpengalaman.</p>
@@ -37,7 +37,7 @@ include 'includes/header.php';
                 <h3 class="text-rosegold font-semibold tracking-widest uppercase text-xs sm:text-sm mb-4">Mengenai Kami</h3>
                 <h2 class="text-3xl sm:text-5xl font-bold mb-6">Sentuhan Professional Untuk Kecantikan Abadi</h2>
                 <p class="text-gray-600 text-base sm:text-lg mb-6 md:mb-8 leading-relaxed">
-                    Berdiri sejak tahun 2015, Griya Savitri telah berkomitmen untuk memberikan layanan kecantikan terbaik bagi setiap pelanggan. Kami percaya bahwa setiap individu memiliki keunikan tersendiri yang layak untuk dirayakan.
+                    Berdiri sejak tahun 2015, Libra Salon telah berkomitmen untuk memberikan layanan kecantikan terbaik bagi setiap pelanggan. Kami percaya bahwa setiap individu memiliki keunikan tersendiri yang layak untuk dirayakan.
                 </p>
                 <div class="space-y-4 mb-10">
                     <div class="flex items-center space-x-3">
@@ -63,7 +63,7 @@ include 'includes/header.php';
 <section class="py-16 sm:py-24 bg-beige/30">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h3 class="text-rosegold font-semibold tracking-widest uppercase text-xs sm:text-sm mb-4">Layanan Unggulan</h3>
-        <h2 class="text-3xl sm:text-5xl font-bold mb-10 md:mb-16">Pilihan Terbaik Di Griya Savitri</h2>
+        <h2 class="text-3xl sm:text-5xl font-bold mb-10 md:mb-16">Pilihan Terbaik Di Libra Salon</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
             <?php

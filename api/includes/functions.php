@@ -45,9 +45,9 @@ function is_admin_logged_in() {
  */
 function get_wa_link($service_name = "") {
     $phone = getenv('WA_NUMBER') ?: '6289619344767';
-    $message = "Halo Griya Savitri, saya ingin melakukan reservasi.";
+    $message = "Halo Libra Salon, saya ingin melakukan reservasi.";
     if ($service_name) {
-        $message = "Halo Griya Savitri, saya ingin memesan layanan: " . $service_name;
+        $message = "Halo Libra Salon, saya ingin memesan layanan: " . $service_name;
     }
     return "https://wa.me/" . $phone . "?text=" . urlencode($message);
 }
