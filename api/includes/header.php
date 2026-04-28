@@ -21,7 +21,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 sm:h-20 items-center">
                 <div class="flex-shrink-0">
-                    <a href="index.php" class="text-xl sm:text-2xl font-bold tracking-tighter text-rosegold">GRIYA <span class="text-[#333333]">SAVITRI</span></a>
+                    <a href="index.php" class="text-xl sm:text-2xl font-bold tracking-tighter text-rosegold">LIBRA <span class="text-[#333333]">SALON</span></a>
                 </div>
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-8">

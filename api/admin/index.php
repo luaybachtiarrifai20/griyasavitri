@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="max-w-md w-full px-6">
         <div class="bg-white rounded-3xl shadow-2xl overflow-hidden">
             <div class="bg-gray-900 px-10 py-12 text-center">
-                <h1 class="text-white text-3xl font-bold tracking-widest">GRIYA <span class="text-gray-400">ADMIN</span></h1>
+                <h1 class="text-white text-3xl font-bold tracking-widest">LIBRA <span class="text-gray-400">ADMIN</span></h1>
                 <p class="text-gray-500 mt-2">Login to manage your salon</p>
             </div>
             

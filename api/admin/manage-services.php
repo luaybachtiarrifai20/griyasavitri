@@ -51,7 +51,7 @@ if (isset($_GET['edit'])) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Manage Services - Griya Admin</title>
+    <title>Manage Services - Libra Admin</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <style>body { font-family: 'Montserrat', sans-serif; }</style>
@@ -60,7 +60,7 @@ if (isset($_GET['edit'])) {
     <!-- Sidebar (Simplified for brevity, same as dashboard) -->
     <div class="fixed w-64 h-full bg-gray-900 shadow-xl hidden md:block">
         <div class="p-8 text-center border-b border-gray-800">
-            <h1 class="text-white text-xl font-bold tracking-widest">GRIYA <span class="text-gray-400">ADMIN</span></h1>
+            <h1 class="text-white text-xl font-bold tracking-widest">LIBRA <span class="text-gray-400">ADMIN</span></h1>
         </div>
         <nav class="p-6 space-y-4">
             <a href="dashboard.php" class="block text-gray-400 hover:text-white px-4 py-3 transition-colors">Dashboard</a>
