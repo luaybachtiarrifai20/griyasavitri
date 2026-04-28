@@ -6,10 +6,7 @@
   "routes": [
     { "src": "/assets/(.*)", "dest": "/assets/$1" },
     { "src": "/admin", "dest": "/api/admin/index.php" },
-    { "src": "/admin/(.*)", "dest": "/api/admin/$1.php" },
-    { "src": "/services", "dest": "/api/services.php" },
-    { "src": "/booking", "dest": "/api/booking.php" },
-    { "src": "/", "dest": "/api/index.php" },
+    { "src": "/(.*\\.php)", "dest": "/api/$1" },
     { "src": "/(.*)", "dest": "/api/$1.php" }
   ]
 }
